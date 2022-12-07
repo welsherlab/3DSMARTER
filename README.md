@@ -1,5 +1,10 @@
 # 3DSMARTER
 Code to analyze data from 3D-SMARTER tracking of silver nanoparticles on live cells
+
+Mapping nanoscale forces and potentials in live cells with microsecond 3D single-particle tracking
+Shangguo Hou, Chen Zhang, Anastasia Niver, Kevin Welsher
+bioRxiv 2022.06.27.497788; doi: https://doi.org/10.1101/2022.06.27.497788
+
 Top-level functions
 bayesProcessing
 This function takes raw tracking data at performs recursive Bayesian regression to calculate the particle trajectory. One microsecond binned data can be found in "200304 TR003 raw tracking data 590_650s.mat." Load this file into MATLAB workspace before running the function. This function generates the data found in Fig. 4.
